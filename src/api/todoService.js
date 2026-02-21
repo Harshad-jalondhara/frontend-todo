@@ -1,7 +1,7 @@
 import axios from "axios"
 
 const API = axios.create({
-    baseURL: import.meta.env.VITE_API_URL
+    baseURL: "https://backend-todo-nine-sandy.vercel.app/api/todo"
 })
 
 export const createTodo = (todoData) => {
